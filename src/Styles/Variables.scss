@@ -1,0 +1,45 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:wght@400;500&display=swap");
+
+$font-primary: "Raleway", sans-serif;
+$font-secondary: "Rubik", sans-serif;
+
+// Colors
+$color-primary: rgb(0, 0, 0);
+$color-secondary: #9a9a9a;
+
+// Font size
+$font-base: 1.3rem;
+
+// Border
+$border: 2px solid $color-primary;
+
+// Breakpoints
+$breakpoints: (
+  xs: (
+    min-width: 460px,
+  ),
+  s: (
+    min-width: 640px,
+  ),
+  m: (
+    min-width: 800px,
+  ),
+  l: (
+    min-width: 1035px,
+  ),
+  xl: (
+    min-width: 1200px,
+  ),
+);
+// Media query
+@mixin mq($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+  @if ($size) {
+    @media #{$size} {
+      @content;
+    }
+  } @else {
+    @error '"#{$breakpoint}" - Nie rozpoznaje';
+  }
+}
