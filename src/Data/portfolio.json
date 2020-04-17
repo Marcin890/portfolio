@@ -1,42 +1,60 @@
 [
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "category": "books",
+    "id": 1,
+    "desc": "Projekt okładki książki"
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "category": "books",
+    "id": 2,
+    "desc": "Projekt okładki książki"
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "category": "books",
+    "id": 3
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item2.jpg",
+    "category": "ebooks",
+    "id": 4
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item2.jpg",
+    "category": "ebooks",
+    "id": 5
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item2.jpg",
+    "category": "ebooks",
+    "id": 6
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "id": 7
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "id": 8
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "id": 9
   },
   {
     "name": "Kuchnia królów",
-    "src": "item1.png"
+    "src": "item1.png",
+    "id": 10
   }
 ]

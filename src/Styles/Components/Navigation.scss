@@ -7,7 +7,11 @@
     width: 100%;
     height: 100%;
     z-index: 999;
-    background: $color-secondary;
+    background: $color-primary;
+    padding: 45px 25px;
+    .header__title {
+      color: $color-third;
+    }
   }
   &__list {
     &--collapsed {
@@ -19,6 +23,7 @@
     &--is-expanded {
       display: block;
       margin-top: 100px;
+      color: $color-third;
     }
   }
   &__list-item {
@@ -31,6 +36,9 @@
     a {
       flex-grow: 1;
       padding: 10px 0px;
+      font-size: 16.85px;
+      font-family: $font-secondary;
+      text-transform: uppercase;
     }
   }
   &__flag-wrapper {

@@ -1,10 +1,16 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Portfolio from "./Portfolio";
+import About from "./About";
+import Contact from "./Contact";
+import Project from "./Project";
 
 const Page = () => (
   <Switch>
     <Route path="/" exact component={Portfolio} />} />
+    <Route path="/about" component={About} />} />
+    <Route path="/contact" component={Contact} />} />
+    <Route path="/projects/:id" component={Project} />} />
   </Switch>
 );
 

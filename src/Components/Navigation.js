@@ -3,10 +3,16 @@ import { NavLink } from "react-router-dom";
 
 const navItems = [
   {
-    name: "Książki",
+    name: "Portfolio",
+    path: "/",
   },
   {
-    name: "Ebooki",
+    name: "O mnie",
+    path: "about",
+  },
+  {
+    name: "Kontakt",
+    path: "contact",
   },
 ];
 
@@ -20,7 +26,7 @@ class Navigation extends Component {
       <NavLink
         activeClassName="active"
         id={item.name}
-        to={item.name}
+        to={item.path}
         onClick={() => this.menuClose()}
       >
         {item.name}
@@ -44,7 +50,7 @@ class Navigation extends Component {
     const { isExpanded } = this.state;
     return (
       <nav className={`nav ${isExpanded ? "nav__mobile" : ""}`}>
-        <NavLink to="/">
+        <NavLink to="/" onClick={() => this.menuClose()}>
           <h1 className="header__title">
             Marcin <span className="grey">Kośka</span>
           </h1>

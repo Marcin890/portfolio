@@ -2,6 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  a {
+    flex-basis: 100%;
+    height: auto;
+    @include mq(s) {
+      flex-basis: 50%;
+    }
+  }
   &__item {
     flex-basis: 100%;
     height: auto;
@@ -19,5 +26,24 @@
     font-family: $font-secondary;
     font-weight: 400;
     font-size: 16.85px;
+  }
+}
+
+.portfolio-filter {
+  border: $border;
+  background: none;
+  color: $color-primary;
+  text-align: center;
+  width: 100%;
+  padding: 15px 15px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: $font-secondary;
+  font-weight: 400;
+  display: block;
+  @include mq(s) {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 5px;
   }
 }
