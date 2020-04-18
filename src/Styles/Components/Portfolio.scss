@@ -2,21 +2,49 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  a {
-    flex-basis: 100%;
-    height: auto;
-    @include mq(s) {
-      flex-basis: 50%;
-    }
-  }
+
   &__item {
     flex-basis: 100%;
     height: auto;
     padding: 5px 0;
+    position: relative;
+
     @include mq(s) {
       flex-basis: 50%;
       padding: 7px;
     }
+    &:hover {
+      .portfolio__overlay {
+        opacity: 1;
+      }
+    }
+  }
+  &__overlay {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 1);
+    display: flex;
+    transition: $transition;
+    opacity: 0;
+  }
+  &__category {
+    color: $color-third;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__title {
+    color: $color-third;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 40px;
   }
   &__btn {
     margin: 40px auto;
@@ -26,6 +54,28 @@
     font-family: $font-secondary;
     font-weight: 400;
     font-size: 16.85px;
+    transition: $transition;
+    &:hover {
+      background: rgba(0, 0, 0, 1);
+      color: $color-third;
+    }
+  }
+  &__btn-view {
+    margin: auto;
+    display: block;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 16.85px;
+    border: 2px solid white;
+    background: none;
+    color: $color-third;
+    transition: $transition;
+    &:hover {
+      background: rgba(255, 255, 255, 0.9);
+      color: black;
+    }
   }
 }
 

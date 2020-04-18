@@ -14,6 +14,7 @@ body {
   font-size: $font-base;
   color: $color-primary;
   padding: 45px 25px;
+  line-height: 1.6em;
 }
 
 // Layout
@@ -86,4 +87,5 @@ img {
 // Lists
 li {
   font-size: 16.83px;
+  list-style-type: none;
 }

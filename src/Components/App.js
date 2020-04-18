@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import Page from "./Page";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../Styles/App.scss";
+import "../Styles/Animations.css";
 
 function App() {
   return (

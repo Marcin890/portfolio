@@ -4,14 +4,19 @@
     "src": "item1.png",
     "category": "books",
     "id": 1,
-    "desc": "Projekt okładki książki"
+    "desc": "Projekt okładki książki dla Wydawnictwa Astra",
+    "gallery": ["/item1.png", "/item1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2020-04",
+    "task": "Projekt okładki do książki poświęconej historii Kuchni."
   },
   {
     "name": "Kuchnia królów",
     "src": "item1.png",
     "category": "books",
     "id": 2,
-    "desc": "Projekt okładki książki"
+    "desc": "Projekt okładki książki",
+    "gallery": ["/item1.png", "/item1.png"]
   },
   {
     "name": "Kuchnia królów",

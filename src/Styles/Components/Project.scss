@@ -1,0 +1,37 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  &__gallery {
+    flex-basis: 100%;
+    @include mq(s) {
+      flex-basis: 75%;
+    }
+  }
+  &__description {
+    padding-left: 0;
+    flex-basis: 100%;
+    order: -1;
+    @include mq(s) {
+      flex-basis: 25%;
+      order: 0;
+      padding-left: 40px;
+    }
+  }
+  &__item {
+    padding: 5px 0;
+    @include mq(s) {
+      padding: 7px 0;
+    }
+  }
+  &__desc-header {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+  &__desc-text {
+    margin-bottom: 10px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+}

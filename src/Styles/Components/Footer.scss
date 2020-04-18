@@ -1,6 +1,9 @@
 .footer {
   margin-top: 40px;
   margin-bottom: 45px;
+  @include mq(s) {
+    margin-left: 25%;
+  }
   &__text {
     text-align: center;
   }

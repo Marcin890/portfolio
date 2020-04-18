@@ -4,6 +4,7 @@ import Portfolio from "./Portfolio";
 import About from "./About";
 import Contact from "./Contact";
 import Project from "./Project";
+import { CSSTransition } from "react-transition-group";
 
 const Page = () => (
   <Switch>
