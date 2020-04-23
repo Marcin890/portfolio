@@ -13,7 +13,7 @@ class Portfolio extends Component {
 
   categoryList = [
     { name: "Wszystkie", filter: "all" },
-    { name: "Książki", filter: "books" },
+    { name: "Okładki książek", filter: "book-cover" },
     { name: "Ebooki", filter: "ebooks" },
   ];
 
@@ -36,12 +36,19 @@ class Portfolio extends Component {
     });
   };
 
+  randomImage(min, max) {
+    return Math.round(Math.random() * (max - min) + min);
+  }
+
   getPortfolioItems = () => {
     const portfolioItems = this.state.items
       .slice(0, this.state.visible)
       .filter((item) =>
-        this.state.filter === "all" ? 1 : item.category === this.state.filter
+        this.state.filter === "all"
+          ? 1
+          : item.category_slug === this.state.filter
       )
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
       .map((item) => (
         <div className="portfolio__item">
           <div className="portfolio__overlay">
@@ -51,7 +58,12 @@ class Portfolio extends Component {
               Zobacz
             </Link>
           </div>
-          <img src={item.src} alt="" />
+          <img
+            src={`${item.category_slug}/${
+              item.gallery[this.randomImage(0, item.gallery.length - 1)]
+            }`}
+            alt=""
+          />
         </div>
       ));
     return portfolioItems;

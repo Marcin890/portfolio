@@ -1,65 +1,40 @@
 [
   {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "category": "books",
     "id": 1,
-    "desc": "Projekt okładki książki dla Wydawnictwa Astra",
-    "gallery": ["/item1.png", "/item1.png"],
+    "name": "Piastówny na tronach Europy",
+    "name_slug": "piastowny_na_tronach_europy",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": ["piastowny_2.png", "piastowny_10.png", "piastowny_11.png"],
     "employer": "Wydawnictwo Astra",
     "date": "2020-04",
-    "task": "Projekt okładki do książki poświęconej historii Kuchni."
+    "task": "Projekt okładki."
   },
   {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "category": "books",
     "id": 2,
-    "desc": "Projekt okładki książki",
-    "gallery": ["/item1.png", "/item1.png"]
+    "name": "Wersal",
+    "name_slug": "wersal",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "wersal_2.png",
+      "wersal_10.png",
+      "wersal_11.png",
+      "wersal_back.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2016-11",
+    "task": "Projekt okładki."
   },
   {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "category": "books",
-    "id": 3
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item2.jpg",
-    "category": "ebooks",
-    "id": 4
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item2.jpg",
-    "category": "ebooks",
-    "id": 5
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item2.jpg",
-    "category": "ebooks",
-    "id": 6
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "id": 7
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "id": 8
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "id": 9
-  },
-  {
-    "name": "Kuchnia królów",
-    "src": "item1.png",
-    "id": 10
+    "id": 3,
+    "name": "Walezjusze",
+    "name_slug": "walezjusze",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": ["walezjusze_2.png", "walezjusze_10.png", "walezjusze_11.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-10",
+    "task": "Projekt okładki."
   }
 ]

@@ -9,7 +9,7 @@ const Project = (props) => {
       <div className="project__gallery">
         {item.gallery.map((it) => (
           <div className="project__item">
-            <img src={it} alt="" />
+            <img src={`/${item.category_slug}/${it}`} alt="" />
           </div>
         ))}
       </div>

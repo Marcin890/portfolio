@@ -19,8 +19,11 @@
   }
   &__item {
     padding: 5px 0;
+    background: $color-grey;
+    margin-bottom: 10px;
     @include mq(s) {
       padding: 7px 0;
+      margin-bottom: 15px;
     }
   }
   &__desc-header {
