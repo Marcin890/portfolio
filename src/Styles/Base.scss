@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   @include mq(l) {
-    max-width: 1035px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 }

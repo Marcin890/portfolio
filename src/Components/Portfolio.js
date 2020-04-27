@@ -14,7 +14,10 @@ class Portfolio extends Component {
   categoryList = [
     { name: "Wszystkie", filter: "all" },
     { name: "Okładki książek", filter: "book-cover" },
-    { name: "Ebooki", filter: "ebooks" },
+    { name: "Layouty książek", filter: "book-layout" },
+    { name: "Czasopisma", filter: "magazine" },
+    { name: "Reklama", filter: "ad" },
+    { name: "Ebooki", filter: "ebook" },
   ];
 
   changeVieport = () => {
@@ -42,28 +45,30 @@ class Portfolio extends Component {
 
   getPortfolioItems = () => {
     const portfolioItems = this.state.items
-      .slice(0, this.state.visible)
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
       .filter((item) =>
         this.state.filter === "all"
           ? 1
           : item.category_slug === this.state.filter
       )
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, this.state.visible)
       .map((item) => (
         <div className="portfolio__item">
-          <div className="portfolio__overlay">
-            <p className="portfolio__category">{item.category}</p>
-            <h2 className="portfolio__title">{item.name}</h2>
-            <Link className="portfolio__btn-view" to={`/projects/${item.id}`}>
-              Zobacz
-            </Link>
+          <div className="portfolio__inner">
+            <div className="portfolio__overlay">
+              <p className="portfolio__category">{item.category}</p>
+              <h2 className="portfolio__title">{item.name}</h2>
+              <Link className="portfolio__btn-view" to={`/projects/${item.id}`}>
+                Zobacz
+              </Link>
+            </div>
+            <img
+              src={`${item.category_slug}/${
+                item.gallery[this.randomImage(0, item.gallery.length - 1)]
+              }`}
+              alt=""
+            />
           </div>
-          <img
-            src={`${item.category_slug}/${
-              item.gallery[this.randomImage(0, item.gallery.length - 1)]
-            }`}
-            alt=""
-          />
         </div>
       ));
     return portfolioItems;

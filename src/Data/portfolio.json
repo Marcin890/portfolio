@@ -7,7 +7,7 @@
     "category_slug": "book-cover",
     "gallery": ["piastowny_2.png", "piastowny_10.png", "piastowny_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2020-04",
+    "date": "2019-04",
     "task": "Projekt okładki."
   },
   {
@@ -16,14 +16,9 @@
     "name_slug": "wersal",
     "category": "Okładki książek",
     "category_slug": "book-cover",
-    "gallery": [
-      "wersal_2.png",
-      "wersal_10.png",
-      "wersal_11.png",
-      "wersal_back.png"
-    ],
+    "gallery": ["wersal_2.png", "wersal_10.png", "wersal_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2016-11",
+    "date": "2017-11",
     "task": "Projekt okładki."
   },
   {
@@ -34,7 +29,431 @@
     "category_slug": "book-cover",
     "gallery": ["walezjusze_2.png", "walezjusze_10.png", "walezjusze_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-10",
+    "date": "2019-04",
     "task": "Projekt okładki."
+  },
+  {
+    "id": 4,
+    "name": "Templariusze. Proces",
+    "name_slug": "templariusze-proces",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": ["proces_2.png", "proces_10.png", "proces_11.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-06",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 5,
+    "name": "Jak przetrwać w średniowiecznym Krakowie",
+    "name_slug": "jak-przetrwac-w-sredniowiecznym-krakowie",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "krakow-sredniowieczny_2.png",
+      "krakow-sredniowieczny_10.png",
+      "krakow-sredniowieczny_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-10",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 6,
+    "name": "Siedem śmierci",
+    "name_slug": "siedem-smierci",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "siedem-smierci_2.png",
+      "siedem-smierci_10.png",
+      "siedem-smierci_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-01",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 7,
+    "name": "Roksolana",
+    "name_slug": "roksolana",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": ["roksolana_2.png", "roksolana_10.png", "roksolana_11.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-03",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 8,
+    "name": "Rewolwerowcy",
+    "name_slug": "rewolwerowcy",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "rewolwerowcy_2.png",
+      "rewolwerowcy_10.png",
+      "rewolwerowcy_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-05",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 9,
+    "name": "Pretorianie",
+    "name_slug": "pretorianie",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "pretorianie_2.png",
+      "pretorianie_10.png",
+      "pretorianie_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-09",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 10,
+    "name": "Korona Plantagenetów",
+    "name_slug": "korona-plantagenetow",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "korona-plantagenetow_2.png",
+      "korona-plantagenetow_10.png",
+      "korona-plantagenetow_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-09",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 11,
+    "name": "Niosąc Płomień",
+    "name_slug": "niosac-plomien",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "niosac-plomien_10.png",
+      "niosac-plomien_2.png",
+      "niosac-plomien_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-07",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 12,
+    "name": "Kuchnia królów",
+    "name_slug": "kuchnia-krolow",
+    "category": "Okładki książek",
+    "category_slug": "book-cover",
+    "gallery": [
+      "kuchnia-krolow_2.png",
+      "kuchnia-krolow_10.png",
+
+      "kuchnia-krolow_11.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2020-04",
+    "task": "Projekt okładki."
+  },
+  {
+    "id": 13,
+    "name": "Wersal",
+    "name_slug": "wersal",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": ["wersal_12.png", "wersal_13.png", "wersal_14.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-11",
+    "task": "Projekt typograficzny, skład, przygotowanie zdjęć do druku."
+  },
+  {
+    "id": 14,
+    "name": "Templariusze. Historia i mity",
+    "name_slug": "templariusz-historia-i-mity",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": [
+      "templariusz_12.png",
+      "templariusz_13.png",
+      "templariusz_14.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2016-11",
+    "task": "Projekt typograficzny, skład, przygotowanie do druku."
+  },
+  {
+    "id": 15,
+    "name": "Siedem śmierci",
+    "name_slug": "siedem-smierci",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": ["siedem-smierci_12.png", "siedem-smierci_14.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-01",
+    "task": "Projekt typograficzny."
+  },
+  {
+    "id": 16,
+    "name": "Rewolwerowcy",
+    "name_slug": "rewolwerowcy",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": [
+      "rewolwerowcy_12.png",
+      "rewolwerowcy_13.png",
+      "rewolwerowcy_14.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-05",
+    "task": "Projekt typograficzny."
+  },
+  {
+    "id": 17,
+    "name": "Złoty wiek piratów",
+    "name_slug": "zloty-wiek-piratow",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": ["piraci_12.png", "piraci_13.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-06",
+    "task": "Projekt typograficzny."
+  },
+  {
+    "id": 18,
+    "name": "Piastowie. Walka o tron",
+    "name_slug": "piastowie-walka-o-tron",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": [
+      "piastowie_11.png",
+      "piastowie_12.png",
+      "piastowie_13.png",
+      "piastowie_14.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-09",
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+  },
+  {
+    "id": 19,
+    "name": "Jak przetrwać w średniowiecznym Krakowie",
+    "name_slug": "jak-przetrwac-w-sredniowiecznym-krakowie",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": [
+      "krakow_11.png",
+      "krakow_12.png",
+      "krakow_13.png",
+      "krakow_14.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2018-10",
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+  },
+  {
+    "id": 20,
+    "name": "Gladiatorzy",
+    "name_slug": "gladiatorzy",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": [
+      "gladiatorzy_12.png",
+      "gladiatorzy_13.png",
+      "gladiatorzy_14.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Projekt typograficzny, skład, przygotowanie do druku."
+  },
+  {
+    "id": 21,
+    "name": "1444. Krucjata polskiego króla",
+    "name_slug": "1444-krucjata-polskiego-krola",
+    "category": "Layouty książek",
+    "category_slug": "book-layout",
+    "gallery": ["1444_12.png", "1444_13.png", "1444_14.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-05",
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+  },
+  {
+    "id": 22,
+    "name": "Archivolta",
+    "name_slug": "archivolta",
+    "category": "Czasopisma",
+    "category_slug": "magazine",
+    "gallery": [
+      "archivolta_1.png",
+      "archivolta_2.png",
+      "archivolta_3.png",
+      "archivolta_4.png",
+      "archivolta_5.png",
+      "archivolta_6.png"
+    ],
+    "employer": "Archivolta",
+    "date": "2013-10",
+    "task": "Skład i przygotowanie do druku 16 numerów kwartalnika architektonicznego."
+  },
+  {
+    "id": 23,
+    "name": "Tudorowie",
+    "name_slug": "tudorowie",
+    "category": "Czasopisma",
+    "category_slug": "magazine",
+    "gallery": [
+      "tudorowie_1.png",
+      "tudorowie_2.png",
+      "tudorowie_3.png",
+      "tudorowie_4.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2016-10",
+    "task": "Projekt typograficzny, skład części artykułów, przygotowanie do druku."
+  },
+  {
+    "id": 24,
+    "name": "T-shirty",
+    "name_slug": "t-shirty",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": ["t-shirt_1.png", "t-shirt_2.png", "t-shirt_3.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-01",
+    "task": "Projekt koszulek tudorowskich."
+  },
+  {
+    "id": 25,
+    "name": "Billboardy",
+    "name_slug": "billboardy",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": ["billboard_1.png", "billboard_2.png", "billboard_3.png"],
+    "employer": "Elstead Lightning",
+    "date": "2019-01",
+    "task": "Projekt bilboardów."
+  },
+  {
+    "id": 26,
+    "name": "Torby reklamowe",
+    "name_slug": "torby-reklamowe",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": ["bag_1.png", "bag_2.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Torby reklamowe wydawnictwa."
+  },
+  {
+    "id": 27,
+    "name": "Pressbooki",
+    "name_slug": "pressbooki",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": [
+      "Pressbook_7.png",
+      "Pressbook_8.png",
+      "Pressbook_1.png",
+      "Pressbook_2.png",
+      "Pressbook_3.png",
+      "Pressbook_4.png",
+      "Pressbook_5.png",
+      "Pressbook_6.png"
+    ],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Torby reklamowe wydawnictwa."
+  },
+  {
+    "id": 28,
+    "name": "Wizytówki",
+    "name_slug": "wizytowki",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": ["card_1.png"],
+    "employer": "Horeca Desire",
+    "date": "2019-01",
+    "task": "Wizytówki."
+  },
+  {
+    "id": 29,
+    "name": "Plakaty",
+    "name_slug": "plakaty",
+    "category": "Reklama",
+    "category_slug": "ad",
+    "gallery": ["poster_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Plakat nawiązujący do ..."
+  },
+  {
+    "id": 30,
+    "name": "Wydawnictwo Astra",
+    "name_slug": "wydawnictwo-astra",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["astra_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
+  },
+  {
+    "id": 31,
+    "name": "Wydawnictwo Literatura",
+    "name_slug": "wydawnictwo-literatura",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["literatura_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
+  },
+  {
+    "id": 31,
+    "name": "Wydawnictwo Otwarte",
+    "name_slug": "wydawnictwo-otwarte",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["otwarte_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
+  },
+  {
+    "id": 32,
+    "name": "Wydawnictwo PZWL",
+    "name_slug": "wydawnictwo-pzwl",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["pzwl_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
+  },
+  {
+    "id": 33,
+    "name": "Wydawnictwo Znak",
+    "name_slug": "wydawnictwo-znak",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["znak_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
+  },
+  {
+    "id": 33,
+    "name": "Wydawnictwo Znak Horyzont",
+    "name_slug": "wydawnictwo-znak-horyzont",
+    "category": "Ebooki",
+    "category_slug": "ebook",
+    "gallery": ["horyzont_1.png"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2019-01",
+    "task": "Konwersja"
   }
 ]
