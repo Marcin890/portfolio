@@ -15,11 +15,11 @@ const Project = (props) => {
       </div>
       <div className="project__description">
         <h2 className="project__title">{item.name}</h2>
-        <h3 className="project__desc-header">Zleceniodawca:</h3>
+        <p className="project__desc-header">Zleceniodawca:</p>
         <p className="project__desc-text"> {item.employer}</p>
-        <h3 className="project__desc-header">Data wykonania:</h3>
+        <p className="project__desc-header">Data wykonania:</p>
         <p className="project__desc-text">{item.date}</p>
-        <h3 className="project__desc-header">Opis:</h3>
+        <p className="project__desc-header">Opis:</p>
         <p className="project__desc-text"> {item.task}</p>
       </div>
     </div>

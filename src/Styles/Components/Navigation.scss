@@ -1,7 +1,8 @@
 .nav {
   margin-bottom: 20px;
+  padding-right: 30px;
   &__mobile {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,7 +59,7 @@
     margin-right: 0;
     margin-left: auto;
     position: absolute;
-    top: 51px;
+    top: 50px;
     right: 25px;
     border: none;
     &:hover {

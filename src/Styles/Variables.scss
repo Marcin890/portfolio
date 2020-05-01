@@ -12,8 +12,6 @@ $color-grey: #ebebec;
 
 // Transition
 $transition: 0.3s;
-// Font size
-$font-base: 1.3rem;
 
 // Border
 $border: 2px solid $color-primary;
@@ -34,6 +32,9 @@ $breakpoints: (
   ),
   xl: (
     min-width: 1200px,
+  ),
+  xxl: (
+    min-width: 1600px,
   ),
 );
 // Media query

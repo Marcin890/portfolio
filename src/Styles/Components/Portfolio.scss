@@ -12,7 +12,7 @@
       padding: 7px;
     }
 
-    @include mq(xl) {
+    @include mq(xxl) {
       flex-basis: 33%;
     }
     &:hover {
@@ -45,6 +45,9 @@
     flex-basis: 100%;
     text-align: center;
     margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    @include mq(l) {
+    }
   }
   &__title {
     color: $color-third;
@@ -52,7 +55,15 @@
     text-align: center;
     margin-bottom: 40px;
     padding: 0 12px;
-    line-height: 1.5em;
+
+    @include mq(l) {
+      font-size: 20.659px;
+    }
+
+    @include mq(xxl) {
+      font-size: 20.659px;
+      margin-bottom: 20px;
+    }
   }
   &__btn {
     margin: 40px auto;
@@ -61,7 +72,7 @@
     text-transform: uppercase;
     font-family: $font-secondary;
     font-weight: 400;
-    font-size: 16.85px;
+    $font-size: 1.5939rem;
     transition: $transition;
     &:hover {
       background: rgba(0, 0, 0, 1);
@@ -87,13 +98,13 @@
   }
 }
 
-.portfolio-filter {
-  border: $border;
+.portfolio__filter {
+  // border: $border;
   background: none;
   color: $color-primary;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  padding: 15px 15px;
+  // padding: 15px 15px;
   margin-bottom: 40px;
   text-transform: uppercase;
   font-family: $font-secondary;
@@ -103,5 +114,11 @@
     width: 50%;
     margin-left: auto;
     margin-right: 5px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  > div > div {
+    border: $border;
+    border-radius: 0;
   }
 }

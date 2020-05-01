@@ -1,0 +1,13 @@
+.about {
+  &__text {
+    margin-top: 10px;
+  }
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    &--separate {
+      margin-top: 40px;
+    }
+  }
+}

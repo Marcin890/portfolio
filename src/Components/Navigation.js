@@ -8,11 +8,11 @@ const navItems = [
   },
   {
     name: "O mnie",
-    path: "about",
+    path: "/about",
   },
   {
     name: "Kontakt",
-    path: "contact",
+    path: "/contact",
   },
 ];
 

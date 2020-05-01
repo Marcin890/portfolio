@@ -2,22 +2,23 @@ import React, { Component } from "react";
 import data from "../Data/portfolio.json";
 import { Link } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import Select from "react-select";
 class Portfolio extends Component {
   state = {
     items: data,
     visible: 6,
-    filter: "all",
+    selectedOption: "all",
   };
 
   desktopViewport = window.matchMedia("screen and (min-width:640px)");
 
   categoryList = [
-    { name: "Wszystkie", filter: "all" },
-    { name: "Okładki książek", filter: "book-cover" },
-    { name: "Layouty książek", filter: "book-layout" },
-    { name: "Czasopisma", filter: "magazine" },
-    { name: "Reklama", filter: "ad" },
-    { name: "Ebooki", filter: "ebook" },
+    { value: "all", label: "Wszystkie" },
+    { value: "book-cover", label: "Okładki książek" },
+    { value: "book-layout", label: "Layouty książek" },
+    { value: "magazine", label: "Czasopisma" },
+    { value: "ad", label: "Reklama" },
+    { value: "ebook", label: "Ebooki" },
   ];
 
   changeVieport = () => {
@@ -33,10 +34,9 @@ class Portfolio extends Component {
     });
   };
 
-  changeFilter = (e) => {
-    this.setState({
-      filter: e.target.value,
-    });
+  changeFilter = (selectedOption) => {
+    this.setState({ selectedOption });
+    console.log(`Option selected:`, selectedOption);
   };
 
   randomImage(min, max) {
@@ -45,11 +45,13 @@ class Portfolio extends Component {
 
   getPortfolioItems = () => {
     const portfolioItems = this.state.items
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      // .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .sort((a, b) => b.rating - a.rating)
       .filter((item) =>
-        this.state.filter === "all"
+        this.state.selectedOption === "all" ||
+        this.state.selectedOption.value === "all"
           ? 1
-          : item.category_slug === this.state.filter
+          : item.category_slug === this.state.selectedOption.value
       )
       .slice(0, this.state.visible)
       .map((item) => (
@@ -74,26 +76,34 @@ class Portfolio extends Component {
     return portfolioItems;
   };
 
+  // colourStyles = {
+  //   option: (styles) => ({
+  //     marginBottom: "10px",
+  //   }),
+  // };
   render() {
     this.desktopViewport.addListener(this.changeVieport);
     const portfolioGrid = this.getPortfolioItems();
+    const { selectedOption } = this.state;
     return (
       <>
-        <select
-          id="filter"
-          className="portfolio-filter"
-          onChange={this.changeFilter}
-        >
-          {this.categoryList.map((category) => (
-            <option value={category.filter}>{category.name}</option>
-          ))}
-        </select>
+        <div className="portfolio__filter">
+          {" "}
+          <Select
+            value={selectedOption}
+            onChange={this.changeFilter}
+            options={this.categoryList}
+            placeholder="Kategorie"
+            styles={this.colourStyles}
+          />
+        </div>
+
         <TransitionGroup>
           <CSSTransition
             appear={true}
             timeout={600}
             classNames="fade"
-            key={this.state.filter}
+            key={this.state.selectedOption}
           >
             <div className="portfolio">{portfolioGrid}</div>
           </CSSTransition>

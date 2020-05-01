@@ -9,8 +9,8 @@ import { CSSTransition } from "react-transition-group";
 const Page = () => (
   <Switch>
     <Route path="/" exact component={Portfolio} />} />
-    <Route path="/about" component={About} />} />
-    <Route path="/contact" component={Contact} />} />
+    <Route path="/about" exact component={About} />} />
+    <Route path="/contact" exact component={Contact} />} />
     <Route path="/projects/:id" component={Project} />} />
   </Switch>
 );

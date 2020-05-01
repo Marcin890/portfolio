@@ -4,6 +4,9 @@
   &__gallery {
     flex-basis: 100%;
     @include mq(s) {
+      flex-basis: 60%;
+    }
+    @include mq(l) {
       flex-basis: 75%;
     }
   }
@@ -11,10 +14,16 @@
     padding-left: 0;
     flex-basis: 100%;
     order: -1;
+    margin-bottom: 20px;
     @include mq(s) {
+      flex-basis: 40%;
+      order: 0;
+      padding-left: 20px;
+    }
+    @include mq(l) {
       flex-basis: 25%;
       order: 0;
-      padding-left: 40px;
+      padding-left: 20px;
     }
   }
   &__item {
@@ -28,14 +37,10 @@
   }
   &__desc-header {
     font-weight: 600;
-    margin-bottom: 5px;
     margin-top: 15px;
   }
-  &__desc-text {
-    margin-bottom: 10px;
-  }
+
   &__title {
     margin-bottom: 40px;
-    font-size: 1.65rem;
   }
 }

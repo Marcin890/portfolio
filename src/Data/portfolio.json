@@ -7,8 +7,9 @@
     "category_slug": "book-cover",
     "gallery": ["piastowny_2.png", "piastowny_10.png", "piastowny_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-04",
-    "task": "Projekt okładki."
+    "date": "2019-03",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 2,
@@ -18,8 +19,9 @@
     "category_slug": "book-cover",
     "gallery": ["wersal_2.png", "wersal_10.png", "wersal_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-11",
-    "task": "Projekt okładki."
+    "date": "2017-12",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 3,
@@ -29,8 +31,9 @@
     "category_slug": "book-cover",
     "gallery": ["walezjusze_2.png", "walezjusze_10.png", "walezjusze_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-04",
-    "task": "Projekt okładki."
+    "date": "2019-05",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 4,
@@ -40,8 +43,9 @@
     "category_slug": "book-cover",
     "gallery": ["proces_2.png", "proces_10.png", "proces_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2018-06",
-    "task": "Projekt okładki."
+    "date": "2018-05",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 90
   },
   {
     "id": 5,
@@ -56,7 +60,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2018-10",
-    "task": "Projekt okładki."
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 6,
@@ -70,8 +75,9 @@
       "siedem-smierci_11.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-01",
-    "task": "Projekt okładki."
+    "date": "2017-03",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 7,
@@ -81,8 +87,9 @@
     "category_slug": "book-cover",
     "gallery": ["roksolana_2.png", "roksolana_10.png", "roksolana_11.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2018-03",
-    "task": "Projekt okładki."
+    "date": "2018-02",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 8,
@@ -96,8 +103,9 @@
       "rewolwerowcy_11.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-05",
-    "task": "Projekt okładki."
+    "date": "2017-09",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 9,
@@ -111,8 +119,9 @@
       "pretorianie_11.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2018-09",
-    "task": "Projekt okładki."
+    "date": "2018-08",
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2019-09",
-    "task": "Projekt okładki."
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 11,
@@ -142,7 +152,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2019-07",
-    "task": "Projekt okładki."
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 12,
@@ -158,7 +169,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2020-04",
-    "task": "Projekt okładki."
+    "task": "Projekt i przygotowanie do druku okładki.",
+    "rating": 1
   },
   {
     "id": 13,
@@ -168,8 +180,9 @@
     "category_slug": "book-layout",
     "gallery": ["wersal_12.png", "wersal_13.png", "wersal_14.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-11",
-    "task": "Projekt typograficzny, skład, przygotowanie zdjęć do druku."
+    "date": "2017-12",
+    "task": "Projekt typograficzny, skład, przygotowanie do druku, wybór ilustracji.",
+    "rating": 1
   },
   {
     "id": 14,
@@ -183,8 +196,9 @@
       "templariusz_14.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2016-11",
-    "task": "Projekt typograficzny, skład, przygotowanie do druku."
+    "date": "2017-11",
+    "task": "Projekt typograficzny, skład, przygotowanie do druku.",
+    "rating": 1
   },
   {
     "id": 15,
@@ -194,8 +208,9 @@
     "category_slug": "book-layout",
     "gallery": ["siedem-smierci_12.png", "siedem-smierci_14.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-01",
-    "task": "Projekt typograficzny."
+    "date": "2017-03",
+    "task": "Projekt typograficzny.",
+    "rating": 1
   },
   {
     "id": 16,
@@ -209,8 +224,9 @@
       "rewolwerowcy_14.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-05",
-    "task": "Projekt typograficzny."
+    "date": "2017-09",
+    "task": "Projekt typograficzny.",
+    "rating": 1
   },
   {
     "id": 17,
@@ -220,8 +236,9 @@
     "category_slug": "book-layout",
     "gallery": ["piraci_12.png", "piraci_13.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-06",
-    "task": "Projekt typograficzny."
+    "date": "2017-10",
+    "task": "Projekt typograficzny.",
+    "rating": 1
   },
   {
     "id": 18,
@@ -237,7 +254,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2018-09",
-    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
+    "rating": 1
   },
   {
     "id": 19,
@@ -253,7 +271,8 @@
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2018-10",
-    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
+    "rating": 1
   },
   {
     "id": 20,
@@ -267,8 +286,9 @@
       "gladiatorzy_14.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Projekt typograficzny, skład, przygotowanie do druku."
+    "date": "2019-04",
+    "task": "Projekt typograficzny, skład, przygotowanie do druku.",
+    "rating": 1
   },
   {
     "id": 21,
@@ -279,7 +299,8 @@
     "gallery": ["1444_12.png", "1444_13.png", "1444_14.png"],
     "employer": "Wydawnictwo Astra",
     "date": "2019-05",
-    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych."
+    "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
+    "rating": 1
   },
   {
     "id": 22,
@@ -297,11 +318,13 @@
     ],
     "employer": "Archivolta",
     "date": "2013-10",
-    "task": "Skład i przygotowanie do druku 16 numerów kwartalnika architektonicznego."
+    "date-end": "2016-12",
+    "task": "Skład i przygotowanie do druku 12 numerów kwartalnika architektonicznego.",
+    "rating": 85
   },
   {
     "id": 23,
-    "name": "Tudorowie",
+    "name": "Tudorowie. Magazyn o historii Anglii",
     "name_slug": "tudorowie",
     "category": "Czasopisma",
     "category_slug": "magazine",
@@ -312,8 +335,10 @@
       "tudorowie_4.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2016-10",
-    "task": "Projekt typograficzny, skład części artykułów, przygotowanie do druku."
+    "date": "2016-01",
+    "date-end": "2016-12",
+    "task": "Projekt typograficzny, skład części artykułów, przygotowanie do druku.",
+    "rating": 1
   },
   {
     "id": 24,
@@ -323,8 +348,9 @@
     "category_slug": "ad",
     "gallery": ["t-shirt_1.png", "t-shirt_2.png", "t-shirt_3.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2017-01",
-    "task": "Projekt koszulek tudorowskich."
+    "date": "2017-03",
+    "task": "Projekt i przygotowanie do druku koszulek związanych z dynastią Tudorów.",
+    "rating": 1
   },
   {
     "id": 25,
@@ -334,8 +360,9 @@
     "category_slug": "ad",
     "gallery": ["billboard_1.png", "billboard_2.png", "billboard_3.png"],
     "employer": "Elstead Lightning",
-    "date": "2019-01",
-    "task": "Projekt bilboardów."
+    "date": "2019-11",
+    "task": "Projekt i przygotowanie do druku bilboardów reklamujących otawracie nowego salonu sprzedaży.",
+    "rating": 1
   },
   {
     "id": 26,
@@ -346,12 +373,13 @@
     "gallery": ["bag_1.png", "bag_2.png"],
     "employer": "Wydawnictwo Astra",
     "date": "2019-01",
-    "task": "Torby reklamowe wydawnictwa."
+    "task": "Projekt i przygotowanie do druku toreb reklamowych wydawnictwa.",
+    "rating": 1
   },
   {
     "id": 27,
-    "name": "Pressbooki",
-    "name_slug": "pressbooki",
+    "name": "Katalogi",
+    "name_slug": "katalogi",
     "category": "Reklama",
     "category_slug": "ad",
     "gallery": [
@@ -365,8 +393,9 @@
       "Pressbook_6.png"
     ],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Torby reklamowe wydawnictwa."
+    "date": "2020-01",
+    "task": "Projekt i skład folderów reklamowych, promujących nowości wydawnicze.",
+    "rating": 80
   },
   {
     "id": 28,
@@ -377,7 +406,8 @@
     "gallery": ["card_1.png"],
     "employer": "Horeca Desire",
     "date": "2019-01",
-    "task": "Wizytówki."
+    "task": "Projekt i przygotowanie do druku wizytówek.",
+    "rating": 1
   },
   {
     "id": 29,
@@ -387,8 +417,9 @@
     "category_slug": "ad",
     "gallery": ["poster_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Plakat nawiązujący do ..."
+    "date": "2019-09",
+    "task": "Projekt plakatu nawiązujący do okładki płyty Jeana-Michela Jarre’a.",
+    "rating": 1
   },
   {
     "id": 30,
@@ -399,7 +430,8 @@
     "gallery": ["astra_1.png"],
     "employer": "Wydawnictwo Astra",
     "date": "2019-01",
-    "task": "Konwersja"
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   },
   {
     "id": 31,
@@ -409,8 +441,9 @@
     "category_slug": "ebook",
     "gallery": ["literatura_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Konwersja"
+    "date": "2010-01",
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   },
   {
     "id": 31,
@@ -420,8 +453,9 @@
     "category_slug": "ebook",
     "gallery": ["otwarte_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Konwersja"
+    "date": "2013-10",
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   },
   {
     "id": 32,
@@ -431,8 +465,9 @@
     "category_slug": "ebook",
     "gallery": ["pzwl_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Konwersja"
+    "date": "2017-01",
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   },
   {
     "id": 33,
@@ -442,8 +477,9 @@
     "category_slug": "ebook",
     "gallery": ["znak_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Konwersja"
+    "date": "2013-01",
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   },
   {
     "id": 33,
@@ -453,7 +489,8 @@
     "category_slug": "ebook",
     "gallery": ["horyzont_1.png"],
     "employer": "Wydawnictwo Astra",
-    "date": "2019-01",
-    "task": "Konwersja"
+    "date": "2013-01",
+    "task": "Przygotowanie formatów elektronicznych publikacji.",
+    "rating": 1
   }
 ]
