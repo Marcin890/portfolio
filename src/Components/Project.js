@@ -7,11 +7,14 @@ const Project = (props) => {
   const projectView = project.map((item) => (
     <div className="project">
       <div className="project__gallery">
-        {item.gallery.map((it) => (
-          <div className="project__item">
-            <img src={`/${item.category_slug}/${it}`} alt="" />
-          </div>
-        ))}
+        {item.gallery.map((it) => {
+          let url = `/${item.category_slug}/${it}_640.png`;
+          return (
+            <div className="project__item">
+              <img src={url} alt="" />
+            </div>
+          );
+        })}
       </div>
       <div className="project__description">
         <h2 className="project__title">{item.name}</h2>

@@ -44,6 +44,7 @@ class Portfolio extends Component {
   }
 
   getPortfolioItems = () => {
+    let url;
     const portfolioItems = this.state.items
       // .sort((a, b) => new Date(b.date) - new Date(a.date))
       .sort((a, b) => b.rating - a.rating)
@@ -54,25 +55,29 @@ class Portfolio extends Component {
           : item.category_slug === this.state.selectedOption.value
       )
       .slice(0, this.state.visible)
-      .map((item) => (
-        <div className="portfolio__item">
-          <div className="portfolio__inner">
-            <div className="portfolio__overlay">
-              <p className="portfolio__category">{item.category}</p>
-              <h2 className="portfolio__title">{item.name}</h2>
-              <Link className="portfolio__btn-view" to={`/projects/${item.id}`}>
-                Zobacz
-              </Link>
+      .map((item) => {
+        url = `${item.category_slug}/${
+          item.gallery[this.randomImage(0, item.gallery.length - 1)]
+        }`;
+        return (
+          <div className="portfolio__item">
+            <div className="portfolio__inner">
+              <div className="portfolio__overlay">
+                <p className="portfolio__category">{item.category}</p>
+                <h2 className="portfolio__title">{item.name}</h2>
+                <Link
+                  className="portfolio__btn-view"
+                  to={`/projects/${item.id}`}
+                >
+                  Zobacz
+                </Link>
+              </div>
+
+              <img src={`${url}_640.png`} alt="" />
             </div>
-            <img
-              src={`${item.category_slug}/${
-                item.gallery[this.randomImage(0, item.gallery.length - 1)]
-              }`}
-              alt=""
-            />
           </div>
-        </div>
-      ));
+        );
+      });
     return portfolioItems;
   };
 
