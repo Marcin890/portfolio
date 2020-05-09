@@ -26,7 +26,7 @@ const About = () => {
       <h2 className="about__title about__title--separate">Umiejętności</h2>
       <p className="about__text">
         <strong>Programy graficzne:</strong> InDesign, QuarkXPress, Photoshop,
-        Illustrator, CorelDRAW, Premiere Pro.
+        Illustrator, CorelDRAW, Premiere Pro,Adobe Acrobat.
       </p>
       <p className="about__text">
         <strong>Programowanie:</strong> HTML, CSS, Sass, BEM, JS, React, Npm,

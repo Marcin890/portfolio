@@ -9,7 +9,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-03",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 60
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-12",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 55
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-05",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 40
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-05",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 90
+    "rating": 85
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-10",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 45
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-03",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 65
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-02",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 52
   },
   {
     "id": 8,
@@ -97,7 +97,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-09",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 90
   },
   {
     "id": 9,
@@ -109,7 +109,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-08",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 72
   },
   {
     "id": 10,
@@ -125,7 +125,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-09",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 35
   },
   {
     "id": 11,
@@ -137,7 +137,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-07",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 63
   },
   {
     "id": 12,
@@ -149,7 +149,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2020-04",
     "task": "Projekt i przygotowanie do druku okładki.",
-    "rating": 1
+    "rating": 42
   },
   {
     "id": 13,
@@ -161,7 +161,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-12",
     "task": "Projekt typograficzny, skład, przygotowanie do druku, wybór ilustracji.",
-    "rating": 1
+    "rating": 85
   },
   {
     "id": 14,
@@ -173,7 +173,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-11",
     "task": "Projekt typograficzny, skład, przygotowanie do druku.",
-    "rating": 1
+    "rating": 32
   },
   {
     "id": 15,
@@ -185,7 +185,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-03",
     "task": "Projekt typograficzny.",
-    "rating": 1
+    "rating": 65
   },
   {
     "id": 16,
@@ -197,7 +197,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-09",
     "task": "Projekt typograficzny.",
-    "rating": 1
+    "rating": 52
   },
   {
     "id": 17,
@@ -209,7 +209,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-10",
     "task": "Projekt typograficzny.",
-    "rating": 1
+    "rating": 43
   },
   {
     "id": 18,
@@ -221,7 +221,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-09",
     "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
-    "rating": 1
+    "rating": 71
   },
   {
     "id": 19,
@@ -233,7 +233,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2018-10",
     "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
-    "rating": 1
+    "rating": 88
   },
   {
     "id": 20,
@@ -245,7 +245,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-04",
     "task": "Projekt typograficzny, skład, przygotowanie do druku.",
-    "rating": 1
+    "rating": 71
   },
   {
     "id": 21,
@@ -257,7 +257,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-05",
     "task": "Projekt typograficzny, skład, wybór zdjęć, przygotowanie do druku, przygotowanie map i tablic genealogicznych.",
-    "rating": 1
+    "rating": 66
   },
   {
     "id": 22,
@@ -277,7 +277,7 @@
     "date": "2013-10",
     "date-end": "2016-12",
     "task": "Skład i przygotowanie do druku 12 numerów kwartalnika architektonicznego.",
-    "rating": 85
+    "rating": 86
   },
   {
     "id": 23,
@@ -290,7 +290,7 @@
     "date": "2016-01",
     "date-end": "2016-12",
     "task": "Projekt typograficzny, skład części artykułów, przygotowanie do druku.",
-    "rating": 1
+    "rating": 58
   },
   {
     "id": 24,
@@ -302,7 +302,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2017-03",
     "task": "Projekt i przygotowanie do druku koszulek związanych z dynastią Tudorów.",
-    "rating": 1
+    "rating": 45
   },
   {
     "id": 25,
@@ -314,7 +314,7 @@
     "employer": "Elstead Lightning",
     "date": "2019-11",
     "task": "Projekt i przygotowanie do druku bilboardów reklamujących otawracie nowego salonu sprzedaży.",
-    "rating": 1
+    "rating": 67
   },
   {
     "id": 26,
@@ -326,7 +326,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-01",
     "task": "Projekt i przygotowanie do druku toreb reklamowych wydawnictwa.",
-    "rating": 1
+    "rating": 20
   },
   {
     "id": 27,
@@ -335,19 +335,19 @@
     "category": "Reklama",
     "category_slug": "ad",
     "gallery": [
-      "Pressbook_7",
-      "Pressbook_8",
-      "Pressbook_1",
-      "Pressbook_2",
-      "Pressbook_3",
-      "Pressbook_4",
-      "Pressbook_5",
-      "Pressbook_6"
+      "pressbook_7",
+      "pressbook_8",
+      "pressbook_1",
+      "pressbook_2",
+      "pressbook_3",
+      "pressbook_4",
+      "pressbook_5",
+      "pressbook_6"
     ],
     "employer": "Wydawnictwo Astra",
     "date": "2020-01",
     "task": "Projekt i skład folderów reklamowych, promujących nowości wydawnicze.",
-    "rating": 80
+    "rating": 82
   },
   {
     "id": 28,
@@ -359,7 +359,7 @@
     "employer": "Horeca Desire",
     "date": "2019-01",
     "task": "Projekt i przygotowanie do druku wizytówek.",
-    "rating": 1
+    "rating": 51
   },
   {
     "id": 29,
@@ -371,7 +371,7 @@
     "employer": "Wydawnictwo Astra",
     "date": "2019-09",
     "task": "Projekt plakatu nawiązujący do okładki płyty Jeana-Michela Jarre’a.",
-    "rating": 1
+    "rating": 84
   },
   {
     "id": 30,
@@ -382,8 +382,8 @@
     "gallery": ["astra_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2019-01",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 70
   },
   {
     "id": 31,
@@ -394,8 +394,8 @@
     "gallery": ["literatura_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2010-01",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 60
   },
   {
     "id": 31,
@@ -406,8 +406,8 @@
     "gallery": ["otwarte_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2013-10",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 50
   },
   {
     "id": 32,
@@ -418,8 +418,8 @@
     "gallery": ["pzwl_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2017-01",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 80
   },
   {
     "id": 33,
@@ -430,8 +430,8 @@
     "gallery": ["znak_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2013-01",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 75
   },
   {
     "id": 33,
@@ -442,7 +442,133 @@
     "gallery": ["horyzont_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2013-01",
-    "task": "Przygotowanie formatów elektronicznych publikacji.",
-    "rating": 1
+    "task": "Przygotowanie publikacji w formatach EPUB i MOBI.",
+    "rating": 64
+  },
+  {
+    "id": 34,
+    "name": "Score App",
+    "name_slug": "score-app",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["score_1"],
+    "employer": "Projekt niekomercyjny",
+    "date": "2020-02",
+    "task": "Projekt i wdrożenie aplikacji internetowej do sprawdzania tabeli oraz wyników meczów piłkarskich.",
+    "rating": 91,
+    "link": "https://marcin890.github.io/footballApp/",
+    "technology": "React, React Router, Sass"
+  },
+  {
+    "id": 35,
+    "name": "Gunfights",
+    "name_slug": "gunfights",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["gunfight_1"],
+    "employer": "Projekt niekomercyjny",
+    "date": "2020-01",
+    "task": "Projekt i wdrożenie gry zręcznościowej osadzonej w klimacie Dzikiego Zachodu.",
+    "rating": 85,
+    "link": "https://marcin890.github.io/gunfighters/",
+    "technology": "JS, Sass"
+  },
+  {
+    "id": 36,
+    "name": "Brunch Website",
+    "name_slug": "brunch",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["brunch_1"],
+    "employer": "Projekt niekomercyjny",
+    "date": "2019-12",
+    "task": "Modyfikacja projektu i wdrożenie strony internetowej restauracji.",
+    "rating": 65,
+    "link": "https://marcin890.github.io/psdToHTML/",
+    "technology": "JS"
+  },
+  {
+    "id": 37,
+    "name": "Apollo 11",
+    "name_slug": "apollo11",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["apollo_1"],
+    "employer": "Projekt niekomercyjny",
+    "date": "2019-11",
+    "task": "Projekt i wdrożenie strony internetowej poświęconej Michaelowi Collinsowi - pilotowi modułu dowodzenia Apollo 11.",
+    "rating": 55,
+    "link": "https://marcin890.github.io/myPSDtoBootstrap/",
+    "technology": "JS, Bootstrap"
+  },
+  {
+    "id": 38,
+    "name": "Bieszczady",
+    "name_slug": "bieszczady",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["bieszczady_1"],
+    "employer": "Projekt niekomercyjny",
+    "date": "2020-01",
+    "task": "Projekt i wdrożenie motywu Wordpressa.",
+    "rating": 75,
+    "link": "https://marcin890.github.io/bieszczady/",
+    "technology": "Wordpress, PHP, JS"
+  },
+  {
+    "id": 39,
+    "name": "Horeca Desire",
+    "name_slug": "horeca-desire",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["horeca_1"],
+    "employer": "Horeca Desire",
+    "date": "2019-09",
+    "task": "Wykonanie sklepu internetowego w technologii Woocommerce. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja ponad 300 produktów z wariantami. Optymalizacja oraz administracja sklepem.",
+    "rating": 93,
+    "link": "https://www.horecadesire.pl",
+    "technology": "Woocommerce"
+  },
+  {
+    "id": 40,
+    "name": "Madis Music",
+    "name_slug": "madis-music",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["madis_1"],
+    "employer": "Madis",
+    "date": "2020-03",
+    "task": "Wykonanie sklepu internetowego w technologii Woocommerce. Wdrożenie i modyfikacja szablonu Wordpressa. Importowanie i konfiguracja produktów. ",
+    "rating": 75,
+    "link": "https://madis-music.com/",
+    "technology": "Woocommerce"
+  },
+  {
+    "id": 41,
+    "name": "Księgarnia Wydawnictwa Astra",
+    "name_slug": "wydawnictwo-astra",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["ksiegarnia_1"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2016-05",
+    "task": "Wykonanie sklepu internetowego w technologii Woocommerce. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja ponad 300 produktów z wariantami. Optymalizacja oraz administracja sklepem.",
+    "rating": 89,
+    "link": "https://wydawnictwo-astra.pl/",
+    "technology": "Woocommerce"
+  },
+  {
+    "id": 42,
+    "name": "Portal Wydawnictwa Astra",
+    "name_slug": "astra-historia",
+    "category": "Strony Internetowe",
+    "category_slug": "www",
+    "gallery": ["astra_1"],
+    "employer": "Wydawnictwo Astra",
+    "date": "2017-06",
+    "task": "Wykonanie portalu internetowego w technologii Wordpress. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja. Optymalizacja oraz administracja sklepem.",
+    "rating": 70,
+    "link": "https://wydawnictwo-astra.pl/",
+    "technology": "Wordpress"
   }
 ]

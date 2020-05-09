@@ -10,10 +10,7 @@ import ScrollToTop from "react-router-scroll-top";
 
 function App() {
   return (
-    <Router
-      // basename={process.env.PUBLIC_URL}
-      onUpdate={() => window.scrollTo(0, 0)}
-    >
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop>
         <div className="app">
           <div className="wrapper">

@@ -10,6 +10,7 @@
       flex-basis: 75%;
     }
   }
+
   &__description {
     padding-left: 0;
     flex-basis: 100%;
@@ -39,8 +40,18 @@
     font-weight: 600;
     margin-top: 15px;
   }
+  &__desc-link {
+    font-weight: 600;
+    margin-top: 15px;
+    color: $color-secondary;
+  }
 
   &__title {
     margin-bottom: 40px;
   }
+}
+
+.ril-inner img {
+  max-width: none;
+  max-height: none;
 }

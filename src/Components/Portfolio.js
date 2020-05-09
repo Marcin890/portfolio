@@ -14,6 +14,7 @@ class Portfolio extends Component {
 
   categoryList = [
     { value: "all", label: "Wszystkie" },
+    { value: "www", label: "Strony Internetowe" },
     { value: "book-cover", label: "Okładki książek" },
     { value: "book-layout", label: "Layouty książek" },
     { value: "magazine", label: "Czasopisma" },
@@ -56,24 +57,22 @@ class Portfolio extends Component {
       )
       .slice(0, this.state.visible)
       .map((item) => {
-        url = `${item.category_slug}/${
-          item.gallery[this.randomImage(0, item.gallery.length - 1)]
-        }`;
+        // url = `${item.category_slug}/${
+        //   item.gallery[this.randomImage(0, item.gallery.length - 1)]
+        // }`;
+        url = `${item.category_slug}/${item.gallery[0]}`;
         return (
           <div className="portfolio__item">
             <div className="portfolio__inner">
               <div className="portfolio__overlay">
                 <p className="portfolio__category">{item.category}</p>
                 <h2 className="portfolio__title">{item.name}</h2>
-                <Link
-                  className="portfolio__btn-view"
-                  to={`/projects/${item.id}`}
-                >
+                <Link className="portfolio__btn-view" to={`/${item.id}`}>
                   Zobacz
                 </Link>
               </div>
 
-              <img src={`${url}_640.png`} alt="" />
+              <img src={`${url}_640.png`} alt="" loading="lazy" />
             </div>
           </div>
         );
