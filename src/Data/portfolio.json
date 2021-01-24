@@ -552,7 +552,7 @@
     "gallery": ["ksiegarnia_1"],
     "employer": "Wydawnictwo Astra",
     "date": "2016-05",
-    "task": "Wykonanie sklepu internetowego w technologii Woocommerce. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja ponad 300 produktów z wariantami. Optymalizacja oraz administracja sklepem.",
+    "task": "Wykonanie sklepu internetowego w technologii Woocommerce. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja ponad 100 produktów z wariantami. Optymalizacja oraz administracja sklepem.",
     "rating": 89,
     "link": "https://wydawnictwo-astra.pl/",
     "technology": "Woocommerce"
@@ -568,7 +568,7 @@
     "date": "2017-06",
     "task": "Wykonanie portalu internetowego w technologii Wordpress. Wdrożenie i modyfikacja szablonu Wordpressa. Projekt i wykonanie strony głównej oraz podstron serwisu. Importowanie i konfiguracja. Optymalizacja oraz administracja sklepem.",
     "rating": 70,
-    "link": "https://wydawnictwo-astra.pl/",
+    "link": "https://astrahistoria.pl/",
     "technology": "Wordpress"
   }
 ]
